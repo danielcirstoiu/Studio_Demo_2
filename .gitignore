@@ -1,0 +1,18 @@
+# UiPath Studio local working data (regenerated on open/build)
+.local/
+.objects/
+.screenshots/
+
+# Build output
+dist/
+*.nupkg
+
+# IDE / OS
+.vs/
+Thumbs.db
+
+# Workflow Analyzer report output
+analyzer.json
+
+# Deliberately NOT ignored — these are project sources and must stay tracked:
+#   .settings   .project/   .tmh/

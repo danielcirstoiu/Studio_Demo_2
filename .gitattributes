@@ -1,0 +1,11 @@
+* text=auto
+
+# UiPath Studio sources: keep CRLF on checkout, never auto-merge, but stay diffable.
+*.xaml   text eol=crlf merge=binary diff
+*.json   text eol=crlf merge=binary diff
+*.uiproj text eol=crlf merge=binary diff
+
+# True binaries: no EOL conversion, no diff, no merge.
+*.png   binary
+*.xlsx  binary
+*.nupkg binary
